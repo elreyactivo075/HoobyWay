@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>HoobyWay</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+ <!-- Barra de navegacion --> 
+
+  <div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper blue-grey">
+      <a href="#" class="brand-logo">HoobyWay</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#inicio">Inicio </a></li>
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#categorias">Acerca del sitio</a></li>
+        <li><a href="#categorias">Contactos</a></li>
+
+ <!-- Barra de navegacion (mobiles) --> 
+
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#inicio">Inicio </a></li>
+        <li><a href="#categorias">Categorias</a></li>
+
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Slider --> 
+
+ <div class="slider" id="inicio">
+    <ul class="slides">
+      <li>
+        <img src="img/hoobyway/ciudad.jpg">
+        <div class="caption center-align">
+          
+          <h3>
+            <span class="grey-text text-lighten-5">HoobyWay</span>
+          </h3>
+
+          <h5 class="grey-text text-darken-1">Bienvenido a un lugar donde se explotara todos los niveles de tu mente y conocer y compartir la tu creatividad con los demas</h5>
+        </div>
+      </li>
+
+      <li>
+        <img src="img/hoobyway/naruto_2.png">
+        <div class="caption center-align">
+          <h3>Osio en general</h3>
+          <h5 class="teal-text text-lighten-2">Animes, You tubers, Pendejas, Memes, Diviertete eso es bueno.</h5>
+        </div>
+      </li>
+
+      <li>
+        <img src="img/hoobyway/ptda.jpg">
+        <div class="caption center-align">
+          <h3>Temas Informaticos</h3>
+          <h5 class="teal-text text-lighten-2">Programacion, Diseño Web, Diseño Grafico, Seguridad Informatica, Mobiles, Sistemas Operativos y mas.</h5>
+        </div>
+      </li>
+        </div>
+      </li>
+
+
+
+ <!-- Datos del autor --> 
+
+</div>
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="img/muerte.png" class="circle responsive-img materialboxed"> 
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              <h4>Reynaldo</h4>
+                <p>Autor y creador de esto</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div> 
+  
+   <!-- efecto parallax (img detras de la paguina) --> 
+<div>
+  <div class="parallax-container">
+  <div class="parallax"><img src="img/hoobyway/lazo.jpg"></div>
+<h1><span class="grey-text text-darken-4">Proyectos personales</span></h1>
+<h5>
+  <span class="grey-text text-darken-3">Siempre es bueno buscar un momento para entrenerse y aprender conjuntamente</span>
+
+</h5> 
+</div>
+  
+
+ <!-- paginacion  --> 
+
+<center>
+    <ul class="pagination ">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active #0277bd light-blue darken-3"><a href="#!">1</a></li>
+    <li class="waves-effect #f5f5f5 grey lighten-4"><a href="#!">2</a></li>
+    <li class="waves-effect #f5f5f5 grey lighten-4"><a href="#!">3</a></li>
+    <li class="waves-effect #f5f5f5 grey lighten-4"><a href="#!">4</a></li>
+    <li class="waves-effect #f5f5f5 grey lighten-4"><a href="#!">5</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+  </ul>
+</center>
+
+  <footer class="page-footer blue-grey">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+              <h4>Redes Sociales</h4>
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            HoobyWay Derechos Reservados 2016
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+            
+
+<script src="js/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<script>
+ $( document ).ready(function(){
+    $(".button-collapse").sideNav();
+    $('.slider').slider({full_width: true});
+    $('.parallax').parallax();
+
+})
+</script>
+      
+
+</body>
+</html>
